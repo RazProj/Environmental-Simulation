@@ -1,4 +1,4 @@
-# Environmental Simulation Project
+# Environmental CA ( cellular automata ) Simulation 
 
 This project simulates environmental changes over time using cellular automata principles, modeling dynamic interactions of temperature, pollution, wind, and cloud states within a grid environment that represents various natural and urban regions.
 

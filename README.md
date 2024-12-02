@@ -58,6 +58,15 @@ This project simulates environmental changes over time using cellular automata p
   - The quantity of pollution the region is absrobing
   - Cloud State
 ![alt text](<mocks/attributes.png>)
+
+### Cell Colors
+
+- **City**: Grey
+- **Land**: Brown
+- **Sea**: Light Blue
+- **Glacier**: White
+- **Forest**: Green
+
 ### Interactions
 - Temperature and pollution evolve based on local conditions and global averages. Temperature and pollution also evolve using the average conditions of neighboring cells.
 - Wind affects pollution and temperature propagation.

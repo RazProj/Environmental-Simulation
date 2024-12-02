@@ -1,1 +1,32 @@
-/__pychache__
+# Byte-compiled files
+*.py[cod]
+__pycache__/
+
+# Logs and database files
+*.log
+*.db
+
+# Virtual environment
+venv/
+env/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+*.swp
+*.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Mock and output files
+mocks/
+*.txt
+
+# Visualization and plots
+*.png
+*.jpg

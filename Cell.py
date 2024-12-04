@@ -7,23 +7,23 @@ class Cell:
     
     ELEMENT_ATTRIBUTES = {
         'sea': {
-            'temp': 15, 'pollution': 0.04, 'wind_direction': 'E', 'wind_speed': 0.3, 
+            'temp': 15, 'pollution': 0.12, 'wind_direction': 'E', 'wind_speed': 0.3, 
             'gen_pollution': 0, 'absorb_pollution': 0, 'clouds': ''
         },
         'forest': {
-            'temp': 20, 'pollution': 0.02, 'wind_direction': 'N', 'wind_speed': 0.1, 
+            'temp': 20, 'pollution': 0.06, 'wind_direction': 'N', 'wind_speed': 0.1, 
             'gen_pollution': 0, 'absorb_pollution': 0.02, 'clouds': ''
         },
         'land': {
-            'temp': 22, 'pollution': 0.03, 'wind_direction': 'S', 'wind_speed': 0.4, 
+            'temp': 22, 'pollution': 0.09, 'wind_direction': 'S', 'wind_speed': 0.4, 
             'gen_pollution': 0, 'absorb_pollution': 0, 'clouds': ''
         },
         'city': {
-            'temp': 27, 'pollution': 0.3, 'wind_direction': 'E', 'wind_speed': 0.2, 
+            'temp': 27, 'pollution': 0.6, 'wind_direction': 'E', 'wind_speed': 0.2, 
             'gen_pollution': 0.1, 'absorb_pollution': 0, 'clouds': ''
         },
         'glacier': {
-            'temp': -20, 'pollution': 0.07, 'wind_direction': 'W', 'wind_speed': 0.5, 
+            'temp': -20, 'pollution': 0.12, 'wind_direction': 'W', 'wind_speed': 0.5, 
             'gen_pollution': 0, 'absorb_pollution': 0, 'clouds': ''
         },
     }

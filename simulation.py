@@ -48,8 +48,8 @@ class SimulationApp:
         self.map = self.map_generator.map
 
         # UI Components
-        self.canvas_size = 1000
-        self.cell_size = max(40, self.canvas_size // self.map_size)  # Adaptive cell size
+        self.canvas_size = 800
+        self.cell_size = max(30, self.canvas_size // self.map_size)  # Adaptive cell size
         self.canvas = tk.Canvas(root, width=self.canvas_size, height=self.canvas_size)
         self.canvas.grid(row=0, column=0, rowspan=2)
 
@@ -121,7 +121,7 @@ class SimulationApp:
                 next_cell = Cell(cell.x, cell.y, cell.element)
                 next_cell.set_temp(calc_temp(self.map, self.map_generator, cell))
                 next_cell.set_pollution(calc_pollution(self.map, self.map_generator, cell))
-                next_cell.set_cloud(calc_cloud_state(self.map_generator, cell, random.randint(0, 2), random.randint(0, 3)))
+                next_cell.set_cloud(calc_cloud_state(self.map_generator, cell, random.randint(0, 3), random.randint(0, 3)))
                 next_cell.set_wind_speed(calc_wind_speed(self.map_generator, cell))
                 next_cell.set_wind_direction(calc_wind_direction(self.map_generator, cell))
                 check_and_update_cell_type(next_cell)
